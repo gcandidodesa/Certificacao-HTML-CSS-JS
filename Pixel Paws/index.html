@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fan-made Tamagochi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pixel Paws</h1>
+  <div class="pet-container">
+    <div class="pet" id="pet1" onclick="selectPet(1)">
+      <div class="emoji">&#128049;</div>
+      <p>Saturation Level: <span id="hunger1">100</span>%</p>
+      <p id="message1"></p>
+    </div>
+  </div>
+  <div class="pet-container">
+    <div class="pet" id="pet2" onclick="selectPet(2)">
+      <div class="emoji">🦊</div>
+      <p>Saturation Leve: <span id="hunger2">100</span>%</p>
+      <p id="message2"></p>
+    </div>
+  </div>
+
+  <div class="treat-container">
+    <div class="treat-wrapper">
+      <div class="emoji treat" id="treat1" onclick="feedPet(1)">🍖</div>
+    </div>
+    <div class="treat-wrapper">
+      <div class="emoji treat" id="treat2" onclick="feedPet(5)">🥩</div>
+    </div>
+  </div>
+  
+
+
+  <script src="script.js"></script>
+</body>
+</html>
